@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            background-color: cyan;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            background-color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkblue;
+        }
+        a:hover {
+            color :black;
+            text-decoration: underline;
+        }
+        a::after {
+            content:  '       [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkturquoise;
+        }
+        .especial {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+  <h1>personalizando links</h1>  
+  <ul>
+    <li><a href="https://www.pathofexile.com/" target="_blank">repositorio github</a></li>
+    <li><a href="https://www.youtube.com/@playpathofexile" target="_blank">canal do youtube</a></li>
+    <li><a href="https://www.youtube.com/watch?v=JPunCrPLRjM" target="_blank" class="especial">site de curso em video</a></li>
+  </ul>
+</body>
+</html>
