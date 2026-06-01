@@ -1,0 +1,24 @@
+
+header {
+    background-color: black;
+    height: 250px;
+    padding: 10px;
+    
+}
+header h1 {
+    color: white;
+    font-family: "Anton" ;
+    font-size: 130px;
+    text-align: center;
+}
+header p {
+    color: white;
+    font-size: 150px;
+      
+}
+div {
+background-color: #F5F5F4;
+ font-family: 'Kaushan Script', cursive;
+font-size: 70px;
+padding-bottom: 50px;
+}
