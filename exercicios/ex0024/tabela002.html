@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela grande  </title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      caption {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        border : 1px solid black;
+        padding: 10px;
+      }
+      table {
+        width: 500px;
+        height: 50px;
+      }
+      tbody > tr:nth-child(1n) {
+      background-color: aqua;
+      }
+      th {
+        background-image: linear-gradient(to left, rgb(255, 77, 255) , purple);
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid black;
+        text-align: center;
+        padding: 20px;
+
+      }
+     
+      td  {
+        background-image: linear-gradient( to left , lightblue, rgba(1, 1, 160, 0.719) );
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid black ;
+        text-align: center;
+        padding: 20px;
+        
+      }
+    
+    </style>
+</head>
+<body>
+    <!-- ANATOMIA DA TABELA
+     TABLE 
+     THEAD
+     ---TD,TD,TH
+     TBODY
+     ---TD,TD,TH
+     TFOOT -->
+    <h1>Minha primeira tabela grande</h1>
+    <Table>
+        <caption>Estastica do Brasil</caption>
+       <thead>
+        <tr>
+            <th>Posição</th>
+            <th>Unidade Federativa</th>
+            <th>Populacao</th>
+            <th>%porcen da popu</th>
+            <th>Países comparativos</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>1</td>
+            <td>São Paulo</td>
+            <td>46 081 801</td>
+            <td>7,63%</td>
+            <td>Argentina (45 851 378)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Minas Gerais</td>
+            <td>21 393 441</td>
+            <td>4,81%</td>
+            <td>Chade(21 003 705)</td>
+        </tr>
+       </tbody>
+        
+    </Table>
+</body>
+</html>
