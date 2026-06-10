@@ -1,53 +1,56 @@
-
-
 body {
     background-image: url(imagens/fundo-madeira.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 70vh;
-    
 }
-
 
 main {
-    margin-top: 7%;
+  
+    margin-top: 5%;
     text-align: center;
     position: relative;
+    ;
 }
+
 iframe {
     top: 80px;
-    left: 819px;
+    margin-left: 1;
+    left: 817px;
     width: 285px;
     height: 510px;
     position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
     border: none;
-    
 }
-img {
+
+.iphone {
     height: 663px;
 }
- * {
+
+* {
     margin: 0;
     padding: 0;
- }
- 
- section img {
-   text-align: right;
-    width: 20%;
-    height: 20%;
+}
+
+section img {
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
- }
- 
- #redesociais {
-    border: 2px solid red ;
-    width: 600px;
-    top: 20px;
-    gap: 100px;
-    right: auto;
-    position: absolute;
+}
+
+#redesociais {
+    width: 400px;
+    top: 10px;
+    margin-left: -150px;
+    padding: 30px;
+    gap: 55px;
+    position: fixed;
     display: flex;
     flex-direction: column;
- }
+}
+
+#redesociais img:hover {
+    border: 2px solid white;
+    transform: scale(1.2);
+}
