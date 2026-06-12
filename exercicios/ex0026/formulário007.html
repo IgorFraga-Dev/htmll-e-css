@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Testando formulários</h1>
+    <form action="" method="post" autocomplete="on">
+     <p>
+        <label for="est">Estado</label>
+        <select name="Estado" id="est">
+              
+            <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Regiçao Sudeste">
+                    <option value="MG"> Minas Gerais</option>
+                    <option value="SP"> São Paulo</option>
+                    <option value="RJ"> Rio de Janeiro</option>
+                </optgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="BA"> Bahia</option>
+                <option value="CE">Ceára</option>
+                <option value="PE">Pernambuco</option>
+            </optgroup>
+        </select>
+        <p>
+            <label for="prof">profissão</label>
+            <input type="text" name="profissão" id="prof" list="listprof">
+            <datalist id="listprof">
+                <option>Administrador</option>
+                <option>Advogado</option>
+                <option>Médico </option>
+            </datalist>
+            <p>
+                <label for="msg">Mensagens</label> <br>
+                <textarea name="msg" id="msg"></textarea>
+            </p>
+        </p>
+     </p>
+    </form>
+</body>
+</html>

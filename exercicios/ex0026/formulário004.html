@@ -6,7 +6,27 @@
     <title>prova</title>
 </head>
 <body>
-    h1
-    
+    <h1>teste formulário</h1>
+    <form action="casdastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="nome">nome</label>
+                <input type="text" name="nome" id="nome" minlength="5" maxlength="20" required>
+            </p>
+                 <p>
+            <label for="email">Cadastra seu email</label>
+            <input type="email" name="Cadastre seu email" id="email" required>
+                 </p>
+                 <p>
+            <label for="telefone">Cadastre seu telefone</label>
+            <input type="tel" name="Cadastre seu telefone" id="telefone" required autocomplete="tel aqui" pattern="¨*[0-9]{0-4}-[0-9]{4}$" placeholder="(xx)xxxx-xxxx">
+                 </p>
+        </fieldset>
+     <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="limpar">
+     </p>
+    </form>
 </body>
 </html>
