@@ -7,15 +7,25 @@
 </head>
 <body>
     <h1>testando formulário</h1>
-    <form action="casdastro.php" method="get" autocomplete="on">
+    <form action="" method="get" autocomplete="on">
     <p>
         <label for="iano"> Em que ano voce nao nasceu ? </label>
-        <input type="number" name="Ano de Nascimento " id="iano">
+        <input type="number" name="Ano de Nascimento " id="iano" min="1900" max="2030" oninput="calcIdade()" >
+    </p>
+    <p>
+        <label for="iidade">Sua idade é :</label>
+        <output id="iidade">0</output>
     </p>
     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
     </p>
     </form>
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML =Number (atual) - Number(iano.value)
+        }
+    </script>
 </body>
 </html>
