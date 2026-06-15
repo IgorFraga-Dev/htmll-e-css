@@ -1,0 +1,33 @@
+@charset "UFT-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header {
+    background-image: linear-gradient(to left, lightblue, lightgreen  );
+}
+header h1 {
+    text-align: center;
+}
+menu ul {
+list-style: decimal;
+background-color: greenyellow;
+}
+menu li {
+    display: inline-block;
+    padding: 5px;
+    background-color: green;
+    color:white
+}
+article {
+    white-space: 600px;
+    display: block;
+    margin: auto;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
