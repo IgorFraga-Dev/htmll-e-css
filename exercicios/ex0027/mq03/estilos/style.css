@@ -1,0 +1,36 @@
+@charset "UFT-8";
+
+    * {
+    margin-top: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html, body {
+width: 100wh;
+height: 110vh;
+background-color: black;
+background-size: contain;
+background-repeat: no-repeat;
+}
+h1 {
+    color:white;
+    text-shadow: 0px 0px 2px ;
+    padding: 20px;
+}
+     /* Declaração de retrato */
+   @media screen and (orientation: portrait) {
+    body {
+    background-image: url(/exercicios/ex0027/mq02/imagens/cev-portrait.jpg);
+    background-position: center bottom;
+    
+   }
+   }
+     /* Declração para paisagem */
+     @media screen and (orientation: landscape) {
+     }
+     body {
+        width: 100%;
+    background-image: url(imagens/cev-landscape.jpg);
+    background-position: left bottom;
+    }
