@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px)  /* tablet */ {
+
+    /* Esconde o ícone do hambúrguer */
+    #burguer {
+        display: none !important;
+    }
+
+    /* Mostra o menu */
+    #itens {
+        display: block !important;
+        
+    }
+
+    /* Coloca as opções lado a lado */
+    #itens li {
+        display: inline-block;
+        text-align: center;
+    }
+    
+}
+@media screen and (min-width:1024px) and (max-width:1439px) /* desktop */ {
+ /* Esconde o ícone do hambúrguer */
+    #burguer {
+        display: none !important;
+    }
+
+    /* Mostra o menu */
+    #itens {
+        display: block !important;
+        
+    }
+
+    /* Coloca as opções lado a lado */
+    #itens li {
+        display: inline-block;
+        text-align: center;
+    }
+    @media screen and (min-width:1440px) /* grandes telas */ {
+     #burguer {
+        display: none !important;
+    }
+
+    /* Mostra o menu */
+    #itens {
+        display: block !important;
+        
+    }
+
+    /* Coloca as opções lado a lado */
+    #itens li {
+        display: inline-block;
+        text-align: center;
+        margin-left: 15px;
+        padding: 20px;
+    }  
+      
+    }
+}
+
