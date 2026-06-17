@@ -1,7 +1,27 @@
 @charset "UTF-8";
 
-@media screen { /* impressao */
-    
+@media print { /* impressao */
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+    main {
+        border: 2px solid black;
+    }
+    main ::after {
+        content: "Site feito por Igor Fraga no curso do Curso em vídeo";
+    }
+    main h1 {
+        text-shadow: none;
+        color :black
+    }
+img#phone {display: none;}
+img#tablet {display: none;}
+img#impressao {display: block;}
+img#pc {display: none;}
+img#televisao {display: none;}
 }
 @media screen and (min-width:768px) and (max-width:1023px) /* tablet */ {
     body {
