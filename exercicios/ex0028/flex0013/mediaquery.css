@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+}
+
+
